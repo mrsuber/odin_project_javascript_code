@@ -1,4 +1,4 @@
-learing about class syntax
+
 
 
 class User {

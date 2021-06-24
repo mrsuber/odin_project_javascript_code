@@ -15,3 +15,5 @@ Then use new MyClass() to create a new object with all the listed methods.
 The constructor() method is called automatically by new, so we can initialize the object there.
 
 For example:
+**javaScript02 is to educate about class syntax**
+1. calculating area of a rectangle or a square
