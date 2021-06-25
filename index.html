@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS DOM paragraph style</title>
+<link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+
+  <h1>Manupulating Dom</h1>
+  <h2>javascript DOM with styles</h2>
+<p id ='text'>This text changes when you click teh button saying saying change text</p>
+<div>
+<button id="jsstyle" onclick="change_text_style()">Change Text style</button>
+<button id="jsstyle" onclick="reset_text_style()">Reset Text</button>
+</div>
+<hr>
+
+
+
+
+<div class="handdle_form">
+  <h2>javascript DOM with forms</h2>
+  <p>i am going to get the name form the form and and greet that person with alert</p>
+  <form id="form1" onsubmit="getFormvalue()">
+First name: <input type="text" name="fname" value=""><br>
+Last name: <input type="text" name="lname" value=""><br>
+<input type="submit" value="Submit">
+</form>
+
+</div>
+<hr>
+
+
+
+
+<h2>Write a JavaScript function to get the value of the href, hreflang, rel, target, and type attributes of the specified link.</h2>
+<p><a id="w3r" type="text/html" hreflang="en-us" rel="nofollow" target="_self" href="https://www.w3resource.com/">w3resource</a></p>
+<button onclick="getAttributes()">Click here to get  attributes value</button>
+<hr>
+
+
+
+
+<h2>Write a JavaScript function to add rows to a table.</h2>
+<table id="sampleTable" border="1">
+<tr><td>Row1 cell1</td>
+<td>Row1 cell2</td></tr>
+<tr><td>Row2 cell1</td>
+<td>Row2 cell2</td></tr>
+</table><br>
+<input type="button" onclick="insert_Row()" value="Insert row">
+<hr>
+
+
+<h2>Write a JavaScript function that accept row, column, (to identify a particular cell) and a string to update the content of that cell.</h2>
+<table id="myTable" border="1">
+<tr><td>Row1 cell1</td>
+<td>Row1 cell2</td></tr>
+<tr><td>Row2 cell1</td>
+<td>Row2 cell2</td></tr>
+<tr><td>Row3 cell1</td>
+<td>Row3 cell2</td></tr>
+</table><form>
+<input type="button" onclick="changeContent()" value="Change content">
+</form>
+<hr>
+
+
+
+<h2>Write a JavaScript function that creates a table, accept row, column numbers from the user, and input row-column number as content (e.g. Row-0 Column-0) of a cell.</h2>
+<table id="myTable" border="1">
+</table><form>
+<input type="button" onclick="createTable()" value="Create the table">
+</form>
+
+<hr>
+<h2>Write a JavaScript program to remove items from a dropdown list.</h2>
+<form>
+<select id="colorSelect">
+<option>Red</option>
+<option>Green</option>
+<option>White</option>
+<option>Black</option>
+</select>
+<input type="button" onclick="removecolor()" value="Select and Remove"></form>
+<hr>
+
+
+
+
+<h2>Write a JavaScript program to calculate the volume of a sphere.</h2>
+<p>Input radius value and get the volume of a sphere.</p>
+<form action="" method="post" id="MyForm">
+<label for="radius">Radius</label><input type="text" name="radius" id="radius" required>
+<label for="volume">Volume</label><input type="text" name="volume" id="volume">
+<input type="submit" value="Calculate" id="submit">    </form>
+
+<hr>
+
+
+
+<h2>Write a JavaScript program to display a random image (clicking on a button) from the following list.</h2>
+<div>
+<button id="jsstyle"
+onclick="display_random_image();">Show Image</button>
+</div>
+<hr>
+
+
+
+<h2>Write a JavaScript program to highlight the bold words of the following paragraph, on mouse over a certain link.</h2>
+<p>[<a href="#" onMouseOver="highlight()" onMouseOut="return_normal()">On mouse over here bold words of the following paragraph will be highlighted</a>]</p>
+<p><strong>We</strong> have just started <strong>this</strong> section for the users (<strong>beginner</strong> to intermediate) who <strong>want</strong> to work with <strong>various</strong> JavaScript <strong>problems</strong> and write scripts online to <strong>test</strong> their JavaScript <strong>skill</strong>.</p>
+<hr>
+
+
+
+<h2>Write a JavaScript program to get the width and height of the window (any time the window is resized).</h2>
+<!-- Resize the window (here output panel) and see the result !-->
+
+<div id="wh" onload="getSize()" onresize="getSize()">
+<!-- Place height and width size here! --> 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script type="text/javascript" src="js/master.js"> </script>
+
+
+</body>
+</html>
